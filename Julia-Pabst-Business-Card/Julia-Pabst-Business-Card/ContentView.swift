@@ -27,16 +27,15 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 Divider()
                 RoundedRectangle(cornerRadius: 25)
-                    .foregroundColor(.white)
+                    .fill(Color.white)
                     .frame(height: 50)
-                    .overlay(Text("+43 660 1256182")
-                        .font(Font.custom("Avenir", size: 20))
-                        .bold()
-                        .foregroundColor(Color(red: 0.09, green: 0.63, blue: 0.52))
-                        .background(Capsule()
-                        .foregroundColor(.white)
-                        .frame(width: 350, height: 50)))
-                
+                    .overlay(HStack {
+                        Image(systemName: "phone.fill").foregroundColor(Color(red: 0.09, green: 0.63, blue: 0.52))
+                        Text("+43 660 1256182")
+                            .font(Font.custom("Avenir", size: 20))
+                            .bold()
+                            .foregroundColor(.black)
+                    })
             }
         }
     }
