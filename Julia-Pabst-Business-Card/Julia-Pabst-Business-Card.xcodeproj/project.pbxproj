@@ -11,7 +11,6 @@
 		A31E340D2B6A5DA6001CDBB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31E340C2B6A5DA6001CDBB2 /* ContentView.swift */; };
 		A31E340F2B6A5DA7001CDBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31E340E2B6A5DA7001CDBB2 /* Assets.xcassets */; };
 		A31E34122B6A5DA7001CDBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31E34112B6A5DA7001CDBB2 /* Preview Assets.xcassets */; };
-		A31E34392B6A6163001CDBB2 /* JosefinSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A31E34382B6A6163001CDBB2 /* JosefinSans-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		A31E34112B6A5DA7001CDBB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A31E34172B6A5DA7001CDBB2 /* Julia-Pabst-Business-CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Julia-Pabst-Business-CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31E34212B6A5DA7001CDBB2 /* Julia-Pabst-Business-CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Julia-Pabst-Business-CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A31E34382B6A6163001CDBB2 /* JosefinSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 		A31E34092B6A5DA6001CDBB2 /* Julia-Pabst-Business-Card */ = {
 			isa = PBXGroup;
 			children = (
-				A31E34342B6A6108001CDBB2 /* fonts */,
 				A31E340A2B6A5DA6001CDBB2 /* Julia_Pabst_Business_CardApp.swift */,
 				A31E340C2B6A5DA6001CDBB2 /* ContentView.swift */,
 				A31E340E2B6A5DA7001CDBB2 /* Assets.xcassets */,
@@ -103,14 +100,6 @@
 				A31E34112B6A5DA7001CDBB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A31E34342B6A6108001CDBB2 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				A31E34382B6A6163001CDBB2 /* JosefinSans-VariableFont_wght.ttf */,
-			);
-			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +208,6 @@
 			files = (
 				A31E34122B6A5DA7001CDBB2 /* Preview Assets.xcassets in Resources */,
 				A31E340F2B6A5DA7001CDBB2 /* Assets.xcassets in Resources */,
-				A31E34392B6A6163001CDBB2 /* JosefinSans-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

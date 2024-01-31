@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color(red: 0.09, green: 0.63, blue: 0.52).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Text("Julia Pabst").font(.title).bold().foregroundColor(.white)
+            Text("Julia Pabst").font(Font.custom("Avenir", size: 40)).bold().foregroundColor(.white)
         }
     }
 }
